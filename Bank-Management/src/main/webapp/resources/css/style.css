@@ -1,0 +1,29 @@
+
+.home-content-wrapper{
+background-image: url('../img/1.jpg');	
+background-size: cover; 
+height: 100%;
+}
+
+
+
+
+.overlay-box{
+padding: 180px 0px;
+box-sizing: border-box;
+background: rgba(0, 0, 0, 0.5);
+height: 100%;
+}
+
+.container{
+width: 1200px;
+margin: 0px auto;
+}
+
+
+.welcome-text{
+color:#FFF;
+font-size: 75px;
+font-family: raleway-bold;
+line-height: 90px;
+}

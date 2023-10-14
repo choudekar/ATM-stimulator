@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="BaseLayout" template="/view/BaseLayout.jsp">
+		<put-attribute name="header" value="/view/Header.jsp" />
+		<put-attribute name="footer" value="/view/Footer.jsp" />
+	</definition>
+	
+	
+	<definition name="welcome" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/Welcome.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="login" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/LoginView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="forgetPassword" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/ForgetPasswordView.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="login" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/LoginView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/UserView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="userlist" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/UserListView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bookTransaction" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/BookTransactionView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="fundTransferList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/FundTransferListView.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="bookTransactionList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/BookTransactionListView.jsp"></put-attribute>
+	</definition>
+
+	<definition name="signUp" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/UserRegistrationView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bank" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/BankView.jsp"></put-attribute>
+	</definition>
+	<definition name="banklist" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/BankListView.jsp"></put-attribute>
+	</definition>
+	<definition name="myprofile" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/MyProfileView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="changePassword" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/ChangePasswordView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="accountBalance" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/AccountBalanceView.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="fundTransfer" extends="BaseLayout" >
+		<put-attribute name="body"  value="/view/FundTransferView.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>
